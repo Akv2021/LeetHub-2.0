@@ -1,3 +1,22 @@
+## Modifications
+1. Merged [PRs](https://github.com/arunbhardwaj/LeetHub-2.0/pulls) 104, 109 & 111
+- feature/access-public-repo
+- Accommodating Class Name Changes For Notes Section
+- added feature to manage the question as per group, topic
+
+2. Commands to merge more PRs
+```shell
+git fetch origin pull/<pr-number>/head:<local-branch-name>
+git merge <local-branch-name>
+```
+
+3. Update Extension with changes
+- npm run setup fails due to "name" in package.json. Fixed it.
+- npm run build (nvm use 18)
+- Load `./dist/chrome` in chrome.
+
+
+## Original Blurb
 <h1 align="center">
   <a href="https://standardjs.com"><img src="assets/octocode.png" alt="LeetHub v2 - Automatically sync your code to GitHub." width="400"></a>
   <br>
